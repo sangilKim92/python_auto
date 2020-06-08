@@ -26,9 +26,9 @@ time.sleep(4)
 pyautogui.moveTo(502,404)
 pyautogui.click()
 
-pyautogui.typewrite('git commit -m "')
-gitComment=input('')
-pyautogui.typewrite('"')
+pyautogui.typewrite('git commit -m ')
+time.sleep(10)
+
 pyautogui.typewrite(['enter'])
 
 time.sleep(4)
